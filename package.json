@@ -1,0 +1,17 @@
+{
+  "name": "autolist-electron",
+  "version": "0.1.0",
+  "description": "AutoList Desktop Application",
+  "main": "dist/main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "author": "Adam Renaud",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^4.1.4",
+    "electron-packager": "^13.1.1",
+    "typescript": "^3.4.3"
+  }
+}
