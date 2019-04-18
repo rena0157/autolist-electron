@@ -8,7 +8,8 @@ function createWindow(): void {
     mainWindow = new BrowserWindow({
         width: 800,
         height: 500,
-        webPreferences: {nodeIntegration: false}
+        webPreferences: {nodeIntegration: false},
+        frame: false
     });
 
     let indexFilePath = path.join(__dirname, "index.html");

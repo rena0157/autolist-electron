@@ -14,7 +14,8 @@ function createWindow() {
     mainWindow = new electron_1.BrowserWindow({
         width: 800,
         height: 500,
-        webPreferences: { nodeIntegration: false }
+        webPreferences: { nodeIntegration: false },
+        frame: false
     });
     var indexFilePath = path.join(__dirname, "index.html");
     mainWindow.loadFile(indexFilePath);

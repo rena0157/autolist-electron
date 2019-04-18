@@ -4,18 +4,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
     
     <div id="app-container">
 
-        <div id="title-bar">
-            
+        <div class="title-bar" style="grid-area: title;">
+            <div class="tb-left-items">
+                left items
+            </div>
+
+            <div class="tb-center items">
+                center items
+            </div>
+
+            <div class="tb-right-items">
+                <div id="exit-button">-</div>
+                <div id="maximize-button">[ ]</div>
+                <div id="minimize-button">X</div>
+            </div>
         </div>
 
-        <div id="content">
-            
+        <div id="content" style="grid-area: container">
+            Content works
         </div>
 
     </div>
